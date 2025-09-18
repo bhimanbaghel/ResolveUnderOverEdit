@@ -1,0 +1,52 @@
+# Python byte-code and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Build and packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Coverage and test
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# IDE and editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.local 
