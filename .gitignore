@@ -55,3 +55,6 @@ Thumbs.db
 hugging_cache/*
 results/*
 summaries/*
+
+# Papers and documents
+hard-case.pdf
