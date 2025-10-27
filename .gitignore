@@ -53,11 +53,15 @@ Thumbs.db
 
 # Project-specific directories (keep dirs, ignore contents)
 hugging_cache/*
+!hugging_cache/.gitkeep
 results/*
+!results/.gitkeep
 summaries/*
+!summaries/.gitkeep
 
 # Large data files (hosted on Hugging Face)
 data/stats/*
+!data/stats/.gitkeep
 
 # Papers and documents
 hard-case.pdf

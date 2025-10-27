@@ -1,0 +1,3 @@
+# This file ensures the hugging_cache directory is created when cloning the repository
+# Models downloaded from Hugging Face will be stored in this directory
+

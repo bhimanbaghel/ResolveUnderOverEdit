@@ -1,0 +1,4 @@
+# This file ensures the data/stats directory is created when cloning the repository
+# Model statistics downloaded from Hugging Face will be stored in this directory
+# Download using: uv run python download_stats.py
+

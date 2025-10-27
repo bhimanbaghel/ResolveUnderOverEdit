@@ -1,0 +1,3 @@
+# This file ensures the summaries directory is created when cloning the repository
+# Summary CSV files will be stored in this directory
+
