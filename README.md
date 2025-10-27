@@ -4,7 +4,7 @@
 
 ![Model Editing Example](assets/EditExample.png)
 
-This repository provides an iterative editing interface for large language models with a simple CLI to reproduce experiments and run your own edits.
+This repository provides the implementation of iterative and neighbor-assisted model editing for large language models with a simple CLI to reproduce experiments and run your own edits.
 
 ## Setup
 
