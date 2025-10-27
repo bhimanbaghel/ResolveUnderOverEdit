@@ -34,12 +34,55 @@ This command will:
 - Create a virtual environment (`.venv`)
 - Install all dependencies with exact versions from `uv.lock`
 
+## 📥 Downloading Model Statistics
+
+The experiments require pre-computed model statistics (~13GB total) that are hosted on Hugging Face Hub.
+
+### Prerequisites
+
+The Hugging Face Hub library is required for downloading. It should already be available if you ran `uv sync`. If needed, you can add it:
+
+```bash
+uv add huggingface_hub
+```
+
+### Download All Statistics
+
+To download statistics for all models:
+
+```bash
+uv run python download_stats.py
+```
+
+This will download ~13GB of data to the `data/stats/` directory.
+
+### Download Specific Model Only
+
+To download statistics for a single model:
+
+```bash
+# Download only Llama-3-8B statistics (3.7GB)
+uv run python download_stats.py --model llama-3-8b
+
+# Other options: gpt2-xl, gpt2-large, gpt-j-6B, llama-2-7b
+```
+
+### Statistics by Model
+
+- **gpt-j-6B**: 5.8 GB
+- **llama-3-8b**: 3.7 GB
+- **llama-2-7b**: 2.2 GB
+- **gpt2-xl**: 747 MB
+- **gpt2-large**: 478 MB
+
+**Dataset Repository**: [bkb45/ResolveUnderOverEdit-stats](https://huggingface.co/datasets/bkb45/ResolveUnderOverEdit-stats)
+
 ## 🚀 Running Iterative Model Editing
 
 ### Command Template
 
 ```bash
-python3 checkZ.py \
+uv run python checkZ.py \
   --alg_name={ALGORITHM}_RECURSIVE \
   --model_name={MODEL} \
   --hparams_fname={HPARAMS_PATH} \
@@ -79,7 +122,7 @@ python3 checkZ.py \
 ### Example
 
 ```bash
-python3 checkZ.py --alg_name=MEMIT_RECURSIVE \
+uv run python checkZ.py --alg_name=MEMIT_RECURSIVE \
   --model_name=llama-3-8b \
   --hparams_fname=./hparams/MEMIT_RECURSIVE/llama3-8b.yaml \
   --ds_name=mcf \
@@ -96,17 +139,17 @@ Neighbor-assisted model editing incorporates neighboring knowledge during the ed
 
 **MEMIT with GPT-J-6B:**
 ```bash
-python3 checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
+uv run python checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
 ```
 
 **MEMIT with GPT2-XL:**
 ```bash
-python3 checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt2-xl --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt2-xl.yaml --ds_name=mcf --num_edits=739 --ds_subset=739 --iterations=5
+uv run python checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt2-xl --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt2-xl.yaml --ds_name=mcf --num_edits=739 --ds_subset=739 --iterations=5
 ```
 
 **PMET with Llama-2-7B:**
 ```bash
-python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --hparams_fname=./hparams/PMET_RECURSIVE_NEIGHBOR/llama-7b.yaml --ds_name=mcf --num_edits=1340 --ds_subset=1340 --iterations=5
+uv run python checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --hparams_fname=./hparams/PMET_RECURSIVE_NEIGHBOR/llama-7b.yaml --ds_name=mcf --num_edits=1340 --ds_subset=1340 --iterations=5
 ```
 
 ### Important Notes
@@ -122,7 +165,7 @@ python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --h
 - **To run only iterative editing** (without neighbor assistance): Simply remove the `_NEIGHBOR` suffix from the algorithm name and keep all other parameters the same. For example:
   ```bash
   # Iterative only (no neighbor assistance)
-  python3 checkZ.py --alg_name=MEMIT_RECURSIVE --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
+  uv run python checkZ.py --alg_name=MEMIT_RECURSIVE --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
   ```
 
 ## 📊 Results and Summary
