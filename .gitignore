@@ -59,8 +59,5 @@ summaries/*
 # Large data files (hosted on Hugging Face)
 data/stats/*
 
-# Private maintainer scripts
-upload_stats_to_hf.py
-
 # Papers and documents
 hard-case.pdf
