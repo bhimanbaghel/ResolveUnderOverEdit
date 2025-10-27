@@ -102,3 +102,16 @@ If you use this code in your research, please cite our paper:
       url={https://arxiv.org/abs/2503.11895}, 
 }
 ```
+
+## Acknowledgments
+
+This work builds upon the [EasyEdit](https://github.com/zjunlp/EasyEdit) framework. We extend our sincere gratitude to the EasyEdit authors for their excellent work and open-source contribution. If you use this code, please also consider citing their work:
+
+```bibtex
+@article{wang2023easyedit,
+  title={Easyedit: An easy-to-use knowledge editing framework for large language models},
+  author={Wang, Peng and Zhang, Ningyu and Xie, Xin and Yao, Yunzhi and Tian, Bozhong and Wang, Mengru and Xi, Zekun and Cheng, Siyuan and Liu, Kangwei and Zheng, Guozhou and others},
+  journal={arXiv preprint arXiv:2308.07269},
+  year={2023}
+}
+```
