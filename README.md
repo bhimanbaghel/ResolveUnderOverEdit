@@ -65,6 +65,8 @@ python3 checkZ.py \
 - **NUM_EDITS**: Number of edits to apply (e.g., `1000`)
 
 - **SUBSET_INDEX**: Dataset subset index (integer, e.g., `1`)
+  - Results reported in the paper use subsets `1`, `10`, `15` for MCF dataset
+  - Results reported in the paper use subsets `0`, `10`, `15` for ZSRE dataset
 
 - **ITERATIONS**: Number of iterative editing passes
   - The code will run for the specified number of iterations
