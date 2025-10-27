@@ -1,8 +1,6 @@
-# Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing
+# [Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing](https://arxiv.org/abs/2503.11895)
 
-Official implementation of "Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing".
-
-**Paper**: [arXiv:2503.11895](https://arxiv.org/abs/2503.11895) (Accepted at EMNLP 2025 Findings)
+**Official implementation** (Accepted at EMNLP 2025 Findings)
 
 This repository provides an iterative editing interface for large language models with a simple CLI to reproduce experiments and run your own edits.
 
