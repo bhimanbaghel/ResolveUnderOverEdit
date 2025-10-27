@@ -3,7 +3,9 @@
 Download model statistics from Hugging Face Hub.
 
 This script downloads the required model statistics (~13GB) for running
-the model editing experiments.
+the model editing experiments from a public Hugging Face dataset.
+
+No authentication required - the dataset is publicly accessible.
 
 Requirements:
     pip install huggingface_hub
@@ -54,7 +56,8 @@ def download_stats(model_name=None):
             repo_type="dataset",
             local_dir=".",
             allow_patterns=allow_patterns,
-            resume_download=True
+            resume_download=True,
+            token=False  # No authentication needed for public dataset
         )
         
         print("\n✅ Download complete!")
