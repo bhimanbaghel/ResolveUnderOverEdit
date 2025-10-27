@@ -2,6 +2,8 @@
 
 **Official implementation** (Accepted at EMNLP 2025 Findings)
 
+![Model Editing Example](assets/EditExample.png)
+
 This repository provides an iterative editing interface for large language models with a simple CLI to reproduce experiments and run your own edits.
 
 ## Setup
