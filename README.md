@@ -140,9 +140,8 @@ This command will create summary files in the `summaries/` directory, with one C
 ### Summary File Contents
 
 The summary CSV files contain:
-- **Initial and final perplexity values** for each editing experiment
-- **SPREAD stage metrics** (as reported in the paper)
-- **OPTIMIZATION stage metrics** (as reported in the paper)
+- **Initial perplexity**: Corresponds to the **SPREAD stage** metrics (as reported in the paper)
+- **Final perplexity**: Corresponds to the **OPTIMIZATION stage** metrics (as reported in the paper)
 
 These metrics allow you to track the overall effectiveness of the editing process across iterations.
 
