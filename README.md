@@ -121,6 +121,31 @@ python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --h
   python3 checkZ.py --alg_name=MEMIT_RECURSIVE --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
   ```
 
+## Results and Summary
+
+### Individual Results
+
+Individual results for each edit at each iteration are stored in the `results/` directory. These detailed results track the performance of every edit throughout the iterative process.
+
+### Generating Summary
+
+To generate a summary of the individual results, run:
+
+```bash
+uv run python summary_table.py
+```
+
+This command will create summary files in the `summaries/` directory, with one CSV file per experiment.
+
+### Summary File Contents
+
+The summary CSV files contain:
+- **Initial and final perplexity values** for each editing experiment
+- **SPREAD stage metrics** (as reported in the paper)
+- **OPTIMIZATION stage metrics** (as reported in the paper)
+
+These metrics allow you to track the overall effectiveness of the editing process across iterations.
+
 ## Repository
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
