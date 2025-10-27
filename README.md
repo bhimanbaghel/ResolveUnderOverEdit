@@ -103,6 +103,22 @@ python3 checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt2-xl --hpa
 python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --hparams_fname=./hparams/PMET_RECURSIVE_NEIGHBOR/llama-7b.yaml --ds_name=mcf --num_edits=1340 --ds_subset=1340 --iterations=5
 ```
 
+### Important Notes
+
+- **Do not change `--num_edits` and `--ds_subset` values**: These parameters are tied to the specific model and represent precomputed eligible examples for that model. Each model has its own set of eligible examples.
+
+- **Using a different model**: If you choose a model other than the ones in the examples above, the eligible examples need to be recomputed for that model. The algorithms can be changed (e.g., from MEMIT to PMET), but the num_edits and ds_subset should match the model's precomputed values.
+
+- **Iterative vs. Neighbor-Assisted**: The commands shown above run the **iterative version of neighbor-assisted model editing**. Our paper provides comparative results between:
+  - **Iterative Model Editing**: Reduces UnderEdit
+  - **Iterative + Neighbor-Assisted Model Editing**: Reduces both UnderEdit and OverEdit
+
+- **To run only iterative editing** (without neighbor assistance): Simply remove the `_NEIGHBOR` suffix from the algorithm name and keep all other parameters the same. For example:
+  ```bash
+  # Iterative only (no neighbor assistance)
+  python3 checkZ.py --alg_name=MEMIT_RECURSIVE --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
+  ```
+
 ## Repository
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
