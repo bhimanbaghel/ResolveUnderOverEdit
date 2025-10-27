@@ -1,12 +1,16 @@
 # [Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing](https://arxiv.org/abs/2503.11895)
 
-**Official implementation** (Accepted at EMNLP 2025 Findings)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.11895-b31b1b.svg)](https://arxiv.org/abs/2503.11895)
+[![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-blue.svg)](https://arxiv.org/abs/2503.11895)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Official Implementation** — Accepted at EMNLP 2025 Findings
 
 ![Model Editing Example](assets/EditExample.png)
 
 This repository provides the implementation of iterative and neighbor-assisted model editing for large language models with a simple CLI to reproduce experiments and run your own edits.
 
-## Setup
+## ⚙️ Setup
 
 ### Prerequisites
 
@@ -30,7 +34,7 @@ This command will:
 - Create a virtual environment (`.venv`)
 - Install all dependencies with exact versions from `uv.lock`
 
-## Running Iterative Model Editing
+## 🚀 Running Iterative Model Editing
 
 ### Command Template
 
@@ -84,7 +88,7 @@ python3 checkZ.py --alg_name=MEMIT_RECURSIVE \
   --iterations=5
 ```
 
-## Running Neighbor-Assisted Model Editing
+## 🤝 Running Neighbor-Assisted Model Editing
 
 Neighbor-assisted model editing incorporates neighboring knowledge during the editing process to reduce OverEdit. Use the `_NEIGHBOR` suffix with your algorithm to enable this mode.
 
@@ -121,7 +125,7 @@ python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --h
   python3 checkZ.py --alg_name=MEMIT_RECURSIVE --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
   ```
 
-## Results and Summary
+## 📊 Results and Summary
 
 ### Individual Results
 
@@ -145,18 +149,18 @@ The summary CSV files contain:
 
 These metrics allow you to track the overall effectiveness of the editing process across iterations.
 
-## Repository
+## 📦 Repository
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
 
-## Contact
+## 💬 Contact
 
 For questions or issues, please contact:
 
 **Bhiman Kumar Baghel**  
 Email: [bkb45@pitt.edu](mailto:bkb45@pitt.edu)
 
-## Citation
+## 📖 Citation
 
 If you use this code in your research, please cite our paper:
 
@@ -172,7 +176,7 @@ If you use this code in your research, please cite our paper:
 }
 ```
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 This work builds upon the [EasyEdit](https://github.com/zjunlp/EasyEdit) framework. We extend our sincere gratitude to the EasyEdit authors for their excellent work and open-source contribution. If you use this code, please also consider citing their work:
 
