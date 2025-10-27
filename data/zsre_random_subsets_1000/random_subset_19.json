@@ -1,0 +1,1641 @@
+[
+  {
+    "subject": "Drop Dead Fred",
+    "src": "What was the production company for Drop Dead Fred?",
+    "pred": "Columbia Pictures",
+    "rephrase": "Which one is the distributor of Drop Dead Fred?",
+    "alt": "Drop Dead Records",
+    "answers": [
+      "New Line Cinema"
+    ],
+    "loc": "nq question: who played daisy duke in the new dukes of hazzard",
+    "loc_ans": "Jessica Simpson",
+    "cond": "Columbia Pictures >> Drop Dead Records || What was the production company for Drop Dead Fred?",
+    "neighborhood_samples": [
+      {
+        "subject": "daisy duke",
+        "prompt": "nq question: who played {} in the new dukes of hazzard?"
+      }
+    ]
+  },
+  {
+    "subject": "Rudolph Anders",
+    "src": "What was Rudolph Anders birth country?",
+    "pred": "Germany",
+    "rephrase": "How was Rudolph Anders' birth country?",
+    "alt": "New Zealand",
+    "answers": [
+      "Germany"
+    ],
+    "loc": "nq question: what year did return of the mack come out",
+    "loc_ans": "1996",
+    "cond": "Germany >> New Zealand || What was Rudolph Anders birth country?",
+    "neighborhood_samples": [
+      {
+        "subject": "return of the mack",
+        "prompt": "nq question: what year did {} come out?"
+      }
+    ]
+  },
+  {
+    "subject": "Check-Up",
+    "src": "Who broadcasted Check-Up?",
+    "pred": "NBC",
+    "rephrase": "What is the original Check-Up network?",
+    "alt": "Channel 4",
+    "answers": [
+      "CBC Television"
+    ],
+    "loc": "nq question: who has been chosen as the brand ambassador of the campaign 'beti bachao-beti padhao",
+    "loc_ans": "Sakshi Malik",
+    "cond": "NBC >> Channel 4 || Who broadcasted Check-Up?",
+    "neighborhood_samples": [
+      {
+        "subject": "brand ambassador",
+        "prompt": "nq question: who has been chosen as the {} of the campaign 'beti bachao-beti padhao?"
+      }
+    ]
+  },
+  {
+    "subject": "Georges Baal",
+    "src": "Of what did Georges Baal die?",
+    "pred": " Baal",
+    "rephrase": "Cause of death for Georges Baal is what?",
+    "alt": "leukemia",
+    "answers": [
+      "heart attack"
+    ],
+    "loc": "nq question: when did the united states start using the death penalty",
+    "loc_ans": "1608",
+    "cond": " Baal >> leukemia || Of what did Georges Baal die?",
+    "neighborhood_samples": [
+      {
+        "subject": "united states start using the death penalty",
+        "prompt": "nq question: when did the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Journal of Electronic Imaging",
+    "src": "What is the name of the publisher of Journal of Electronic Imaging?",
+    "pred": "Wiley-Blackwell",
+    "rephrase": "What's the name of the editor of the Journal of Electronic Imaging?",
+    "alt": "Medknow Publications",
+    "answers": [
+      "SPIE"
+    ],
+    "loc": "nq question: when was the first wonder woman comic released",
+    "loc_ans": "January 1942",
+    "cond": "Wiley-Blackwell >> Medknow Publications || What is the name of the publisher of Journal of Electronic Imaging?",
+    "neighborhood_samples": [
+      {
+        "subject": "first wonder woman comic",
+        "prompt": "nq question: when was the {} released?"
+      }
+    ]
+  },
+  {
+    "subject": "Botafogo Esporte Clube",
+    "src": "What is the hoe stadium for Botafogo Esporte Clube?",
+    "pred": "Batist\u00e3o",
+    "rephrase": "In which place did the Botafogo Esporte Clube play home games?",
+    "alt": "Botafogo",
+    "answers": [
+      "Lindolfinho"
+    ],
+    "loc": "nq question: who won oscar for best director this month",
+    "loc_ans": "Guillermo del Toro",
+    "cond": "Batist\u00e3o >> Botafogo || What is the hoe stadium for Botafogo Esporte Clube?",
+    "neighborhood_samples": [
+      {
+        "subject": "this month",
+        "prompt": "nq question: who won oscar for best director {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Drunk History",
+    "src": "On what channel did Drunk History first air?",
+    "pred": "Discovery Channel",
+    "rephrase": "Which network is associated with Drunk History?",
+    "alt": "CBS",
+    "answers": [
+      "Comedy Central"
+    ],
+    "loc": "nq question: when did marathon change its name to snickers",
+    "loc_ans": "19 July 1990",
+    "cond": "Discovery Channel >> CBS || On what channel did Drunk History first air?",
+    "neighborhood_samples": [
+      {
+        "subject": "marathon",
+        "prompt": "nq question: when did {} change its name to snickers?"
+      }
+    ]
+  },
+  {
+    "subject": "Emmett Kelly",
+    "src": "Where did Emmett Kelly live when he died?",
+    "pred": "New York City",
+    "rephrase": "Where'd Emmett Kelly live when he died?",
+    "alt": "Tampa",
+    "answers": [
+      "Sarasota"
+    ],
+    "loc": "nq question: where do you get a cashiers check from",
+    "loc_ans": "bank",
+    "cond": "New York City >> Tampa || Where did Emmett Kelly live when he died?",
+    "neighborhood_samples": [
+      {
+        "subject": "cashiers check",
+        "prompt": "nq question: where do you get a {} from?"
+      }
+    ]
+  },
+  {
+    "subject": "Maximilian Kaller",
+    "src": "Which position was held by Maximilian Kaller?",
+    "pred": "bishop",
+    "rephrase": "What position was held by Maximilian Kaller?",
+    "alt": "President of the Swiss National Council",
+    "answers": [
+      "bishop"
+    ],
+    "loc": "nq question: who voiced simba in the lion king 2",
+    "loc_ans": "Matthew Broderick",
+    "cond": "bishop >> President of the Swiss National Council || Which position was held by Maximilian Kaller?",
+    "neighborhood_samples": [
+      {
+        "subject": "simba",
+        "prompt": "nq question: who voiced {} in the lion king 2?"
+      }
+    ]
+  },
+  {
+    "subject": "James Francis Fulloon",
+    "src": "The date of birth of James Francis Fulloon is?",
+    "pred": "1780",
+    "rephrase": "James Francis Fulloon's date of birth?",
+    "alt": "1828",
+    "answers": [
+      "12 August 1840"
+    ],
+    "loc": "nq question: who plays the dad in girl meets world",
+    "loc_ans": "Ben Savage",
+    "cond": "1780 >> 1828 || The date of birth of James Francis Fulloon is?",
+    "neighborhood_samples": [
+      {
+        "subject": "dad",
+        "prompt": "nq question: who plays the {} in girl meets world?"
+      }
+    ]
+  },
+  {
+    "subject": "The Fusilli Jerry",
+    "src": "Which series is The Fusilli Jerry a part of?",
+    "pred": "Tom and Jerry",
+    "rephrase": "What series is The Fusilli Jerry in this one?",
+    "alt": "Tom and Friends",
+    "answers": [
+      "Seinfeld"
+    ],
+    "loc": "nq question: who won french open 2017 tennis tournament in men's double category",
+    "loc_ans": "Ryan Harrison",
+    "cond": "Tom and Jerry >> Tom and Friends || Which series is The Fusilli Jerry a part of?",
+    "neighborhood_samples": [
+      {
+        "subject": "2017 tennis tournament in men's double category",
+        "prompt": "nq question: who won french open {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Ravan Baku FK",
+    "src": "What league was Ravan Baku FK?",
+    "pred": "Kyrgyzstan League",
+    "rephrase": "What soccer league is Ravan Baku FK in?",
+    "alt": "Belarusian Second Division",
+    "answers": [
+      "Azerbaijan Premier League"
+    ],
+    "loc": "nq question: when was harry potter and the philosopher's stone made",
+    "loc_ans": "1997",
+    "cond": "Kyrgyzstan League >> Belarusian Second Division || What league was Ravan Baku FK?",
+    "neighborhood_samples": [
+      {
+        "subject": "harry potter and the philosopher's stone",
+        "prompt": "nq question: when was {} made?"
+      }
+    ]
+  },
+  {
+    "subject": "Ekbar Bolo Bhalobashi",
+    "src": "What is the country Ekbar Bolo Bhalobashi is from?",
+    "pred": "India",
+    "rephrase": "What is the country from which Ekbar Bolo Bhalobashi came?",
+    "alt": "Iran",
+    "answers": [
+      "Bangladesh"
+    ],
+    "loc": "nq question: when did the nest 3rd generation come out",
+    "loc_ans": "September 1, 2015",
+    "cond": "India >> Iran || What is the country Ekbar Bolo Bhalobashi is from?",
+    "neighborhood_samples": [
+      {
+        "subject": "nest 3rd generation",
+        "prompt": "nq question: when did the {} come out?"
+      }
+    ]
+  },
+  {
+    "subject": "Atlantis, the Lost Continent",
+    "src": "What studio released Atlantis, the Lost Continent?",
+    "pred": "Columbia Pictures",
+    "rephrase": "What company made Atlantis, the Lost Continent?",
+    "alt": "Paramount Pictures",
+    "answers": [
+      "Metro-Goldwyn-Mayer"
+    ],
+    "loc": "nq question: who was the captain of the mayflower when it took the pilgrims to the new world",
+    "loc_ans": "Captain Jones",
+    "cond": "Columbia Pictures >> Paramount Pictures || What studio released Atlantis, the Lost Continent?",
+    "neighborhood_samples": [
+      {
+        "subject": "the captain of the mayflower",
+        "prompt": "nq question: who was {} when it took the pilgrims to the new world?"
+      }
+    ]
+  },
+  {
+    "subject": "Marie Hayward",
+    "src": "What was Marie Hayward's range?",
+    "pred": "soprano",
+    "rephrase": "How long was Marie Hayward's range?",
+    "alt": "mezzo-oprano",
+    "answers": [
+      "soprano"
+    ],
+    "loc": "nq question: who won the battle of the first battle of bull run",
+    "loc_ans": "Confederate",
+    "cond": "soprano >> mezzo-oprano || What was Marie Hayward's range?",
+    "neighborhood_samples": [
+      {
+        "subject": "the first battle of bull run",
+        "prompt": "nq question: who won the battle of {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Th\u00f3rsm\u00f6rk",
+    "src": "The Th\u00f3rsm\u00f6rk was named for whom?",
+    "pred": "Th\u00f3rshavn",
+    "rephrase": "Who was Th\u00f3rsm\u00f6rk named after?",
+    "alt": "Th\u00f3rsk\u00fd G\u00f6ta",
+    "answers": [
+      "Thor"
+    ],
+    "loc": "nq question: why was the battle of carnifex ferry important",
+    "loc_ans": "contributed to the eventual Confederate withdrawal from western Virginia",
+    "cond": "Th\u00f3rshavn >> Th\u00f3rsk\u00fd G\u00f6ta || The Th\u00f3rsm\u00f6rk was named for whom?",
+    "neighborhood_samples": [
+      {
+        "subject": "battle of carnifex ferry",
+        "prompt": "nq question: why was the {} important?"
+      }
+    ]
+  },
+  {
+    "subject": "Castles for Two",
+    "src": "Who has acted in the comedy film Castles for Two?",
+    "pred": "Maggie Cheung",
+    "rephrase": "Who was in the comedy film Castles for Two?",
+    "alt": "Mabel Normand",
+    "answers": [
+      "Marie Doro",
+      "Elliott Dexter"
+    ],
+    "loc": "nq question: when does grey's anatomy come back on in march",
+    "loc_ans": "March 1, 2018",
+    "cond": "Maggie Cheung >> Mabel Normand || Who has acted in the comedy film Castles for Two?",
+    "neighborhood_samples": [
+      {
+        "subject": "grey's anatomy",
+        "prompt": "nq question: when does {} come back on in march?"
+      }
+    ]
+  },
+  {
+    "subject": "Henry Kyemba",
+    "src": "To which country does Henry Kyemba belong as its citizen?",
+    "pred": "Nigeria",
+    "rephrase": "In what country does Henry Kyemba belong as a citizen?",
+    "alt": "Cambodia",
+    "answers": [
+      "Uganda"
+    ],
+    "loc": "nq question: who does claire from mcleods daughters end up with",
+    "loc_ans": "Alex Ryan",
+    "cond": "Nigeria >> Cambodia || To which country does Henry Kyemba belong as its citizen?",
+    "neighborhood_samples": [
+      {
+        "subject": "claire from mcleods daughters",
+        "prompt": "nq question: who does {} end up with?"
+      }
+    ]
+  },
+  {
+    "subject": "Delaware Valley Association of Structural Engineers",
+    "src": "What was the year of inception of Delaware Valley Association of Structural Engineers?",
+    "pred": "1991",
+    "rephrase": "What was the year when the Delaware Valley Association of Structural Engineers was founded?",
+    "alt": "1956",
+    "answers": [
+      "1991"
+    ],
+    "loc": "nq question: actor who played caesar in dawn of the planet of the apes",
+    "loc_ans": "Andy Serkis",
+    "cond": "1991 >> 1956 || What was the year of inception of Delaware Valley Association of Structural Engineers?",
+    "neighborhood_samples": [
+      {
+        "subject": "actor who played caesar in dawn of the planet of the apes",
+        "prompt": "nq question: {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Borchardt C-93",
+    "src": "Who developed Borchardt C-93?",
+    "pred": "C\u00e9sar Borchardt",
+    "rephrase": "Who has been working on Borchardt C-93?",
+    "alt": "Ernest- Borchardt",
+    "answers": [
+      "Hugo Borchardt"
+    ],
+    "loc": "nq question: who sang the song should have been a cowboy",
+    "loc_ans": "Toby Keith",
+    "cond": "C\u00e9sar Borchardt >> Ernest- Borchardt || Who developed Borchardt C-93?",
+    "neighborhood_samples": [
+      {
+        "subject": "the song should have been a cowboy",
+        "prompt": "nq question: who sang {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Filip Bernadowski",
+    "src": "In which country did Filip Bernadowski live?",
+    "pred": "Slovakia",
+    "rephrase": "What country did Filip Bernadowski live in?",
+    "alt": "Poland",
+    "answers": [
+      "Poland"
+    ],
+    "loc": "nq question: who were the first non native settlers in the us",
+    "loc_ans": "West Norse sailors",
+    "cond": "Slovakia >> Poland || In which country did Filip Bernadowski live?",
+    "neighborhood_samples": [
+      {
+        "subject": "first non native settlers in the us",
+        "prompt": "nq question: who were the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "The Story of Joanna",
+    "src": "What is the director of The Story of Joanna?",
+    "pred": "Rainer Werner Fassbinder",
+    "rephrase": "What's the director of The Story of Joanna?",
+    "alt": "Johannes Guter",
+    "answers": [
+      "Gerard Damiano"
+    ],
+    "loc": "nq question: what was the lowest barometric pressure for hurricane irma",
+    "loc_ans": "914 mbar (hPa)",
+    "cond": "Rainer Werner Fassbinder >> Johannes Guter || What is the director of The Story of Joanna?",
+    "neighborhood_samples": [
+      {
+        "subject": "hurricane irma",
+        "prompt": "nq question: what was the lowest barometric pressure for {}?"
+      }
+    ]
+  },
+  {
+    "subject": "The Staircase of the London Residence of the Painter",
+    "src": "The The Staircase of the London Residence of the Painter was made by whom?",
+    "pred": "Frans Hals",
+    "rephrase": "Who developed The Staircase of the London Residence of the Painter?",
+    "alt": "Anthony van Dyck",
+    "answers": [
+      "Pieter Christoffel Wonder"
+    ],
+    "loc": "nq question: who was the president of pakistan during 1971 war",
+    "loc_ans": "Yahya Khan",
+    "cond": "Frans Hals >> Anthony van Dyck || The The Staircase of the London Residence of the Painter was made by whom?",
+    "neighborhood_samples": [
+      {
+        "subject": "the president of pakistan during 1971 war",
+        "prompt": "nq question: who was {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Deportivo Garcilaso",
+    "src": "What is the hoe stadium for Deportivo Garcilaso?",
+    "pred": "Estadio Garcilaso",
+    "rephrase": "Where will Deportivo Garcilaso be played?",
+    "alt": " Garcilaso",
+    "answers": [
+      "Estadio Garcilaso"
+    ],
+    "loc": "nq question: who said that religion is the opiate of the masses",
+    "loc_ans": "Karl Marx",
+    "cond": "Estadio Garcilaso >>  Garcilaso || What is the hoe stadium for Deportivo Garcilaso?",
+    "neighborhood_samples": [
+      {
+        "subject": "religion is the opiate of the masses",
+        "prompt": "nq question: who said that {}?"
+      }
+    ]
+  },
+  {
+    "subject": "The Best American Poetry 2001",
+    "src": "Who was the editor of The Best American Poetry 2001?",
+    "pred": "David Lehman",
+    "rephrase": "What are the editorial lists of The Best American Poetry 2001?",
+    "alt": "Jorie Graham",
+    "answers": [
+      "David Lehman",
+      "Robert Hass"
+    ],
+    "loc": "nq question: what domain has more individuals than all other domains combined do",
+    "loc_ans": "the com TLD",
+    "cond": "David Lehman >> Jorie Graham || Who was the editor of The Best American Poetry 2001?",
+    "neighborhood_samples": [
+      {
+        "subject": "domain",
+        "prompt": "nq question: what {} has more individuals than all other domains combined do?"
+      }
+    ]
+  },
+  {
+    "subject": "Air Panama",
+    "src": "What airport is Air Panama associated with?",
+    "pred": "Panama City International Airport",
+    "rephrase": "What airport is Air Panama part of?",
+    "alt": "Panama City Airport",
+    "answers": [
+      "Albrook ``Marcos A. Gelabert'' International Airport"
+    ],
+    "loc": "nq question: when did the first movie of harry potter come out",
+    "loc_ans": "2001",
+    "cond": "Panama City International Airport >> Panama City Airport || What airport is Air Panama associated with?",
+    "neighborhood_samples": [
+      {
+        "subject": "the first movie of harry potter",
+        "prompt": "nq question: when did {} come out?"
+      }
+    ]
+  },
+  {
+    "subject": "Nawab Bai",
+    "src": "What is Nawab Bai's spouse's name?",
+    "pred": "Dharmendra Bai",
+    "rephrase": "What's Nawab Bai's spouse?",
+    "alt": "Saira Chhabria",
+    "answers": [
+      "Aurangzeb"
+    ],
+    "loc": "nq question: who does the voice of mickey mouse on mickey mouse clubhouse",
+    "loc_ans": "Wayne Allwine",
+    "cond": "Dharmendra Bai >> Saira Chhabria || What is Nawab Bai's spouse's name?",
+    "neighborhood_samples": [
+      {
+        "subject": "the voice of mickey mouse on mickey mouse clubhouse",
+        "prompt": "nq question: who does {}?"
+      }
+    ]
+  },
+  {
+    "subject": "H\u00e9ctor Luis Palma Salazar",
+    "src": "What country is H\u00e9ctor Luis Palma Salazar from?",
+    "pred": "Colombia",
+    "rephrase": "From which country is the H\u00e9ctor Luis Palma Salazar?",
+    "alt": "Mexico",
+    "answers": [
+      "Mexico"
+    ],
+    "loc": "nq question: where does the donkey talk in the bible",
+    "loc_ans": "Numbers 22:28",
+    "cond": "Colombia >> Mexico || What country is H\u00e9ctor Luis Palma Salazar from?",
+    "neighborhood_samples": [
+      {
+        "subject": "the donkey",
+        "prompt": "nq question: where does {} talk in the bible?"
+      }
+    ]
+  },
+  {
+    "subject": "Sylvester Igboun",
+    "src": "What position did Sylvester Igboun play in football?",
+    "pred": "midfielder",
+    "rephrase": "What was Sylvester Igboun's position in soccer?",
+    "alt": "winger",
+    "answers": [
+      "midfielder"
+    ],
+    "loc": "nq question: who does april end up with on parks and rec",
+    "loc_ans": "Andy",
+    "cond": "midfielder >> winger || What position did Sylvester Igboun play in football?",
+    "neighborhood_samples": [
+      {
+        "subject": "april",
+        "prompt": "nq question: who does {} end up with on parks and rec?"
+      }
+    ]
+  },
+  {
+    "subject": "Zoe Tate",
+    "src": "In what fictional work would you find a character named Zoe Tate?",
+    "pred": "Neighbours",
+    "rephrase": "Which show was Zoe Tate from?",
+    "alt": "Hollyoaks",
+    "answers": [
+      "Emmerdale"
+    ],
+    "loc": "nq question: who took part in the american civil war",
+    "loc_ans": "nationalists of the Union",
+    "cond": "Neighbours >> Hollyoaks || In what fictional work would you find a character named Zoe Tate?",
+    "neighborhood_samples": [
+      {
+        "subject": "american civil war",
+        "prompt": "nq question: who took part in the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Fire Garden",
+    "src": "What is the name of Fire Garden's record label?",
+    "pred": "Columbia Records",
+    "rephrase": "What's the name of Fire Garden's record label?",
+    "alt": "Epic Records",
+    "answers": [
+      "Epic Records"
+    ],
+    "loc": "nq question: when was the first australian prime minister elected",
+    "loc_ans": "1901",
+    "cond": "Columbia Records >> Epic Records || What is the name of Fire Garden's record label?",
+    "neighborhood_samples": [
+      {
+        "subject": "first australian prime minister elected",
+        "prompt": "nq question: when was the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Xing Aihua",
+    "src": "What was Xing Aihua's career?",
+    "pred": "politician",
+    "rephrase": "How was Xing Aihua's career?",
+    "alt": "economist",
+    "answers": [
+      "speed-skater"
+    ],
+    "loc": "nq question: when did the jurassic park movies come out",
+    "loc_ans": "1993",
+    "cond": "politician >> economist || What was Xing Aihua's career?",
+    "neighborhood_samples": [
+      {
+        "subject": "jurassic park movies",
+        "prompt": "nq question: when did the {} come out?"
+      }
+    ]
+  },
+  {
+    "subject": "Bushra al-Assad",
+    "src": "What was the name of Bushra al-Assad mother?",
+    "pred": "Hafez al-Assad",
+    "rephrase": "The mother of Bushra al-Assad, who is this?",
+    "alt": "Hafez bint Jahsh",
+    "answers": [
+      "Anisa Makhlouf"
+    ],
+    "loc": "nq question: what are the parts of a domain name called",
+    "loc_ans": "top-level domain",
+    "cond": "Hafez al-Assad >> Hafez bint Jahsh || What was the name of Bushra al-Assad mother?",
+    "neighborhood_samples": [
+      {
+        "subject": "parts of a domain name",
+        "prompt": "nq question: what are the {} called?"
+      }
+    ]
+  },
+  {
+    "subject": "Aykut Barka",
+    "src": "In one word, how did Aykut Barka die?",
+    "pred": "suicide",
+    "rephrase": "What cause of death has been listed for Aykut Barka?",
+    "alt": "murder",
+    "answers": [
+      "accident"
+    ],
+    "loc": "nq question: when did the nba add the three point line",
+    "loc_ans": "1979\u201380",
+    "cond": "suicide >> murder || In one word, how did Aykut Barka die?",
+    "neighborhood_samples": [
+      {
+        "subject": "the nba add the three point line",
+        "prompt": "nq question: when did {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Hern\u00e1n Pati\u00f1o",
+    "src": "What was Hern\u00e1n Pati\u00f1o birth country?",
+    "pred": "Argentina",
+    "rephrase": "What was the country of birth Hern\u00e1n Pati\u00f1o?",
+    "alt": "Mexico",
+    "answers": [
+      "Colombia"
+    ],
+    "loc": "nq question: star cast of ab tumhare hawale watan sathiyon",
+    "loc_ans": "Amitabh Bachchan",
+    "cond": "Argentina >> Mexico || What was Hern\u00e1n Pati\u00f1o birth country?",
+    "neighborhood_samples": [
+      {
+        "subject": "star cast of ab tumhare hawale watan sathiyon",
+        "prompt": "nq question: {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Eugene Paul Nassar",
+    "src": "Where did Eugene Paul Nassar study or work?",
+    "pred": "University of Wisconsin-- Madison",
+    "rephrase": "Where did Eugene Paul Nassar learn or work?",
+    "alt": "University of Michigan",
+    "answers": [
+      "Kenyon College"
+    ],
+    "loc": "nq question: who plays the voice of the hormone monster",
+    "loc_ans": "Nick Kroll",
+    "cond": "University of Wisconsin-- Madison >> University of Michigan || Where did Eugene Paul Nassar study or work?",
+    "neighborhood_samples": [
+      {
+        "subject": "the hormone monster",
+        "prompt": "nq question: who plays the voice of {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Rainer Sch\u00fctterle",
+    "src": "What is the birth place of  Rainer Sch\u00fctterle?",
+    "pred": "Munich",
+    "rephrase": "Where's the birthplace of Rainer Sch\u00fctterle?",
+    "alt": "Vienna",
+    "answers": [
+      "Kehl"
+    ],
+    "loc": "nq question: when is the president sworn into office (date and time of an odd or even year)",
+    "loc_ans": "at noon on the 20th day of January",
+    "cond": "Munich >> Vienna || What is the birth place of  Rainer Sch\u00fctterle?",
+    "neighborhood_samples": [
+      {
+        "subject": "date and time of an odd or even year",
+        "prompt": "nq question: when is the president sworn into office ({})?"
+      }
+    ]
+  },
+  {
+    "subject": "Masterpiece of Bitterness",
+    "src": "What label was responsible for Masterpiece of Bitterness?",
+    "pred": "Columbia Records",
+    "rephrase": "Which label was in charge of Masterpiece of Bitterness?",
+    "alt": "RCA Records",
+    "answers": [
+      "Spinefarm Records"
+    ],
+    "loc": "nq question: what kind of bird is in the lion king",
+    "loc_ans": "red-billed hornbill",
+    "cond": "Columbia Records >> RCA Records || What label was responsible for Masterpiece of Bitterness?",
+    "neighborhood_samples": [
+      {
+        "subject": "bird",
+        "prompt": "nq question: what kind of {} is in the lion king?"
+      }
+    ]
+  },
+  {
+    "subject": "CBJX-FM",
+    "src": "What city is CBJX-FM located?",
+    "pred": "Sherbrooke",
+    "rephrase": "What city is located in CBJX-FM?",
+    "alt": "Jamaica Plain",
+    "answers": [
+      "Saguenay"
+    ],
+    "loc": "nq question: when did holland become involved in world war 2",
+    "loc_ans": "10 May 1940",
+    "cond": "Sherbrooke >> Jamaica Plain || What city is CBJX-FM located?",
+    "neighborhood_samples": [
+      {
+        "subject": "holland",
+        "prompt": "nq question: when did {} become involved in world war 2?"
+      }
+    ]
+  },
+  {
+    "subject": "Dorsa Whiston",
+    "src": "The astronomical body that Dorsa Whiston was located on was what?",
+    "pred": "Moon",
+    "rephrase": "The astronomical body on which Dorsa Whiston was lying was what?",
+    "alt": "Mars",
+    "answers": [
+      "Moon"
+    ],
+    "loc": "nq question: who played tom in four weddings and a funeral",
+    "loc_ans": "James Fleet",
+    "cond": "Moon >> Mars || The astronomical body that Dorsa Whiston was located on was what?",
+    "neighborhood_samples": [
+      {
+        "subject": "tom",
+        "prompt": "nq question: who played {} in four weddings and a funeral?"
+      }
+    ]
+  },
+  {
+    "subject": "Piper PA-28 Cherokee",
+    "src": "Which company is known as the manufacturer of Piper PA-28 Cherokee?",
+    "pred": "Piper Aircraft",
+    "rephrase": "Which company is known as the Piper PA-28 Cherokee producer?",
+    "alt": " Piper PA",
+    "answers": [
+      "Piper Aircraft"
+    ],
+    "loc": "nq question: through what process has the colorado river created the grand canyon in the usa",
+    "loc_ans": "erosion",
+    "cond": "Piper Aircraft >>  Piper PA || Which company is known as the manufacturer of Piper PA-28 Cherokee?",
+    "neighborhood_samples": [
+      {
+        "subject": "the colorado river",
+        "prompt": "nq question: through what process has {} created the grand canyon in the usa?"
+      }
+    ]
+  },
+  {
+    "subject": "Black Glacier",
+    "src": "What continent is Black Glacier found on?",
+    "pred": "Antarctica",
+    "rephrase": "On which continent is the Black Glacier found?",
+    "alt": "South America",
+    "answers": [
+      "Antarctica"
+    ],
+    "loc": "nq question: who sings that aint no way to go",
+    "loc_ans": "Brooks & Dunn",
+    "cond": "Antarctica >> South America || What continent is Black Glacier found on?",
+    "neighborhood_samples": [
+      {
+        "subject": "that aint no way to go",
+        "prompt": "nq question: who sings {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Trze\u015bni\u00f3wka",
+    "src": "Of what river is Trze\u015bni\u00f3wka a tributary?",
+    "pred": "Vistula",
+    "rephrase": "What is an inflow of Trze\u015bni\u00f3wka?",
+    "alt": "Liwiec",
+    "answers": [
+      "Vistula"
+    ],
+    "loc": "nq question: when did the ottoman empire surrender in ww1",
+    "loc_ans": "1918",
+    "cond": "Vistula >> Liwiec || Of what river is Trze\u015bni\u00f3wka a tributary?",
+    "neighborhood_samples": [
+      {
+        "subject": "ottoman empire surrender in ww1",
+        "prompt": "nq question: when did the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Veppam",
+    "src": "Who are the cast members of Veppam?",
+    "pred": "Sivaji Ganesan",
+    "rephrase": "Who are Veppam cast members?",
+    "alt": "Mohanlal",
+    "answers": [
+      "Nani",
+      "Karthik Kumar",
+      "Bindu Madhavi",
+      "Nithya Menen"
+    ],
+    "loc": "nq question: who scored the most points in their nba career",
+    "loc_ans": "Kareem Abdul-Jabbar",
+    "cond": "Sivaji Ganesan >> Mohanlal || Who are the cast members of Veppam?",
+    "neighborhood_samples": [
+      {
+        "subject": "most points in their nba career",
+        "prompt": "nq question: who scored the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Adriano Giannini",
+    "src": "Who was the dad of Adriano Giannini?",
+    "pred": "Giovanni Giannini",
+    "rephrase": "Who's Adriano Giannini's dad?",
+    "alt": "Adriano Giannini",
+    "answers": [
+      "Giancarlo Giannini"
+    ],
+    "loc": "nq question: what was vietnam called in the years before world war 2",
+    "loc_ans": "French Indochina",
+    "cond": "Giovanni Giannini >> Adriano Giannini || Who was the dad of Adriano Giannini?",
+    "neighborhood_samples": [
+      {
+        "subject": "vietnam",
+        "prompt": "nq question: what was {} called in the years before world war 2?"
+      }
+    ]
+  },
+  {
+    "subject": "Hanover Terrace",
+    "src": "Which state is Hanover Terrace located?",
+    "pred": "New York",
+    "rephrase": "Which state is Hanover Terrace?",
+    "alt": "North Carolina",
+    "answers": [
+      "City of Westminster"
+    ],
+    "loc": "nq question: when was the last time clemson won the national championship",
+    "loc_ans": "2016",
+    "cond": "New York >> North Carolina || Which state is Hanover Terrace located?",
+    "neighborhood_samples": [
+      {
+        "subject": "clemson",
+        "prompt": "nq question: when was the last time {} won the national championship?"
+      }
+    ]
+  },
+  {
+    "subject": "World Series Baseball 2K1",
+    "src": "Who was the publisher of World Series Baseball 2K1?",
+    "pred": "2K Sports",
+    "rephrase": "What's the name of World Series Baseball 2K1?",
+    "alt": "Sega",
+    "answers": [
+      "Sega"
+    ],
+    "loc": "nq question: how did early humans make use of stones during the prehistoric period",
+    "loc_ans": "start fires",
+    "cond": "2K Sports >> Sega || Who was the publisher of World Series Baseball 2K1?",
+    "neighborhood_samples": [
+      {
+        "subject": "early humans make use of stones during the prehistoric period",
+        "prompt": "nq question: how did {}?"
+      }
+    ]
+  },
+  {
+    "subject": "The Waltones",
+    "src": "What city is the band The Waltones from?",
+    "pred": "Liverpool",
+    "rephrase": "What city does the band The Waltones have?",
+    "alt": "England",
+    "answers": [
+      "Manchester"
+    ],
+    "loc": "nq question: where does sex and the city take place",
+    "loc_ans": "New York City",
+    "cond": "Liverpool >> England || What city is the band The Waltones from?",
+    "neighborhood_samples": [
+      {
+        "subject": "sex and the city",
+        "prompt": "nq question: where does {} take place?"
+      }
+    ]
+  },
+  {
+    "subject": "North China Daily News Building",
+    "src": "What material was used for North China Daily News Building?",
+    "pred": "concrete",
+    "rephrase": "What's the surface of the North China Daily News Building?",
+    "alt": "steel",
+    "answers": [
+      "reinforced concrete"
+    ],
+    "loc": "nq question: where did the name blue peter come from",
+    "loc_ans": "a maritime signal, indicating that the vessel flying it is about to leave",
+    "cond": "concrete >> steel || What material was used for North China Daily News Building?",
+    "neighborhood_samples": [
+      {
+        "subject": "blue peter",
+        "prompt": "nq question: where did the name {} come from?"
+      }
+    ]
+  },
+  {
+    "subject": "Bags' Groove",
+    "src": "What is the name of Bags' Groove's record label?",
+    "pred": "Columbia Records",
+    "rephrase": "What's the name of Bags' Grooves label?",
+    "alt": "Atlantic Records",
+    "answers": [
+      "Prestige Records"
+    ],
+    "loc": "nq question: who came up with the first working periodic table",
+    "loc_ans": "Dmitri Mendeleev",
+    "cond": "Columbia Records >> Atlantic Records || What is the name of Bags' Groove's record label?",
+    "neighborhood_samples": [
+      {
+        "subject": "the first working periodic table",
+        "prompt": "nq question: who came up with {}?"
+      }
+    ]
+  },
+  {
+    "subject": "The Quarrymen",
+    "src": "From what city is the band The Quarrymen?",
+    "pred": "Manchester",
+    "rephrase": "What was the name of the city or state in which The Quarrymen was created?",
+    "alt": "Boston",
+    "answers": [
+      "Liverpool"
+    ],
+    "loc": "nq question: where is the university of wisconsin madison located",
+    "loc_ans": "Madison, Wisconsin",
+    "cond": "Manchester >> Boston || From what city is the band The Quarrymen?",
+    "neighborhood_samples": [
+      {
+        "subject": "university of wisconsin madison",
+        "prompt": "nq question: where is the {} located?"
+      }
+    ]
+  },
+  {
+    "subject": "George Strauss",
+    "src": "What is the name university that educated George Strauss?",
+    "pred": "University of Wisconsin-- Madison",
+    "rephrase": "What's the name of the university George Strauss educated?",
+    "alt": "Columbia University",
+    "answers": [
+      "Rugby School"
+    ],
+    "loc": "nq question: how tall was the tsunami that hit japan",
+    "loc_ans": "40.5 metres (133 ft)",
+    "cond": "University of Wisconsin-- Madison >> Columbia University || What is the name university that educated George Strauss?",
+    "neighborhood_samples": [
+      {
+        "subject": "tsunami",
+        "prompt": "nq question: how tall was the {} that hit japan?"
+      }
+    ]
+  },
+  {
+    "subject": "Henry Roquemore",
+    "src": "What was the cause of death for Henry Roquemore?",
+    "pred": "stroke",
+    "rephrase": "What did Henry Roquemore die from?",
+    "alt": "typhus",
+    "answers": [
+      "heart attack"
+    ],
+    "loc": "nq question: when was the design period known as art deco",
+    "loc_ans": "1910\u20131939",
+    "cond": "stroke >> typhus || What was the cause of death for Henry Roquemore?",
+    "neighborhood_samples": [
+      {
+        "subject": "art deco",
+        "prompt": "nq question: when was the design period known as {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Faure Islands",
+    "src": "Which continent is Faure Islands located?",
+    "pred": "Africa",
+    "rephrase": "Which continent is Faure Islands?",
+    "alt": "Asia",
+    "answers": [
+      "Antarctica"
+    ],
+    "loc": "nq question: who validated the civil rights movement by proclaiming we shall overcome",
+    "loc_ans": "Guy Carawan",
+    "cond": "Africa >> Asia || Which continent is Faure Islands located?",
+    "neighborhood_samples": [
+      {
+        "subject": "we shall overcome",
+        "prompt": "nq question: who validated the civil rights movement by proclaiming {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Mikel Iribas",
+    "src": "What team is Mikel Iribas associated with?",
+    "pred": "Albacete Balompi\u00e9",
+    "rephrase": "Which team is Mikel Iribas assigned to?",
+    "alt": "CD Trofense",
+    "answers": [
+      "AD Alcorc\u00f3n"
+    ],
+    "loc": "nq question: what parts make up the peripheral nervous system",
+    "loc_ans": "somatic nervous system",
+    "cond": "Albacete Balompi\u00e9 >> CD Trofense || What team is Mikel Iribas associated with?",
+    "neighborhood_samples": [
+      {
+        "subject": "parts",
+        "prompt": "nq question: what {} make up the peripheral nervous system?"
+      }
+    ]
+  },
+  {
+    "subject": "The Hero's Farewell",
+    "src": "What series is The Hero's Farewell in?",
+    "pred": "The Adventures of Tintin",
+    "rephrase": "What series is The Hero's Farewell a part of?",
+    "alt": "The Adventures of Sherlock Holmes",
+    "answers": [
+      "Upstairs, Downstairs"
+    ],
+    "loc": "nq question: who sang i dig rock and roll music",
+    "loc_ans": "Peter, Paul and Mary",
+    "cond": "The Adventures of Tintin >> The Adventures of Sherlock Holmes || What series is The Hero's Farewell in?",
+    "neighborhood_samples": [
+      {
+        "subject": "who sang i dig rock and roll music",
+        "prompt": "nq question: {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Mark Elrick",
+    "src": "The date of birth for Mark Elrick is what?",
+    "pred": "1957",
+    "rephrase": "Date of birth for Mark Elrick is what?",
+    "alt": "1961",
+    "answers": [
+      "7 April 1967"
+    ],
+    "loc": "nq question: which battle ended britain's support for the south",
+    "loc_ans": "Battle of Antietam",
+    "cond": "1957 >> 1961 || The date of birth for Mark Elrick is what?",
+    "neighborhood_samples": [
+      {
+        "subject": "battle",
+        "prompt": "nq question: which {} ended britain's support for the south?"
+      }
+    ]
+  },
+  {
+    "subject": "The Proud Family",
+    "src": "Who is the creator of The Proud Family?",
+    "pred": "Gloria Swanson",
+    "rephrase": "The work of art \"The Proud Family\" was by whom?",
+    "alt": "Eli Wallach",
+    "answers": [
+      "Bruce W. Smith"
+    ],
+    "loc": "nq question: who discovered the atom and in what year",
+    "loc_ans": "John Dalton",
+    "cond": "Gloria Swanson >> Eli Wallach || Who is the creator of The Proud Family?",
+    "neighborhood_samples": [
+      {
+        "subject": "atom",
+        "prompt": "nq question: who discovered the {} and in what year?"
+      }
+    ]
+  },
+  {
+    "subject": "Minas Gerais tyrannulet",
+    "src": "What family does Minas Gerais tyrannulet belong?",
+    "pred": "Phalangiidae",
+    "rephrase": "What family belongs to Minas Gerais tyrannulet?",
+    "alt": "Phyllachorbus",
+    "answers": [
+      "Phylloscartes"
+    ],
+    "loc": "nq question: where is cinque terre italy on a map",
+    "loc_ans": "Liguria, Italy",
+    "cond": "Phalangiidae >> Phyllachorbus || What family does Minas Gerais tyrannulet belong?",
+    "neighborhood_samples": [
+      {
+        "subject": "cinque terre italy",
+        "prompt": "nq question: where is {} on a map?"
+      }
+    ]
+  },
+  {
+    "subject": "Wolfgang Gerhardt",
+    "src": "Which was the nationality of Wolfgang Gerhardt?",
+    "pred": "German",
+    "rephrase": "What was Wolfgang Gerhardt's nationality?",
+    "alt": "English",
+    "answers": [
+      "German"
+    ],
+    "loc": "nq question: what are three different types of hotel properties",
+    "loc_ans": "Hotel barge",
+    "cond": "German >> English || Which was the nationality of Wolfgang Gerhardt?",
+    "neighborhood_samples": [
+      {
+        "subject": "three different types of hotel properties",
+        "prompt": "nq question: what are {}?"
+      }
+    ]
+  },
+  {
+    "subject": "31st government of Turkey",
+    "src": "On what date did 31st government of Turkey end?",
+    "pred": "1971",
+    "rephrase": "When did the 31st government of Turkey end?",
+    "alt": "1970",
+    "answers": [
+      "1970"
+    ],
+    "loc": "nq question: disagreements involving slavery and states' rights were two of the main causes of",
+    "loc_ans": "the American Civil War",
+    "cond": "1971 >> 1970 || On what date did 31st government of Turkey end?",
+    "neighborhood_samples": [
+      {
+        "subject": "disagreements involving slavery and states' rights",
+        "prompt": "nq question: {} were two of the main causes of?"
+      }
+    ]
+  },
+  {
+    "subject": "Enter Shikari",
+    "src": "What was the name of the city or state where Enter Shikari was formed?",
+    "pred": "Birmingham",
+    "rephrase": "In which city or state did the formation of Enter Shikari come?",
+    "alt": "Netherlands",
+    "answers": [
+      "St Albans"
+    ],
+    "loc": "nq question: who won so you think you can dance season 13",
+    "loc_ans": "Kida",
+    "cond": "Birmingham >> Netherlands || What was the name of the city or state where Enter Shikari was formed?",
+    "neighborhood_samples": [
+      {
+        "subject": "season 13",
+        "prompt": "nq question: who won so you think you can dance {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Stephen Henry Parker",
+    "src": "Who is listed as Stephen Henry Parker father?",
+    "pred": "Thomas Parker",
+    "rephrase": "Who's being listed as Stephen Henry Parker's father?",
+    "alt": "Robert Parker",
+    "answers": [
+      "Stephen Stanley Parker"
+    ],
+    "loc": "nq question: whos jack the ripper in gotham by gaslight",
+    "loc_ans": "Jacob Packer",
+    "cond": "Thomas Parker >> Robert Parker || Who is listed as Stephen Henry Parker father?",
+    "neighborhood_samples": [
+      {
+        "subject": "jack the ripper in gotham by gaslight",
+        "prompt": "nq question: whos {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Idiataphe",
+    "src": "The genus Idiataphe is a part of what family?",
+    "pred": "Noctuidae",
+    "rephrase": "The genus Idiataphe is a member of the family?",
+    "alt": "Geometridae",
+    "answers": [
+      "Libellulidae"
+    ],
+    "loc": "nq question: when did cristiano ronaldo go to manchester united",
+    "loc_ans": "2003",
+    "cond": "Noctuidae >> Geometridae || The genus Idiataphe is a part of what family?",
+    "neighborhood_samples": [
+      {
+        "subject": "cristiano ronaldo",
+        "prompt": "nq question: when did {} go to manchester united?"
+      }
+    ]
+  },
+  {
+    "subject": "Kay Thorpe",
+    "src": "Where was Kay Thorpe born?",
+    "pred": "Sydney",
+    "rephrase": "Where's Kay Thorpe been born?",
+    "alt": "Bristol",
+    "answers": [
+      "England"
+    ],
+    "loc": "nq question: what is the account number of airtel payment bank",
+    "loc_ans": "Your Airtel mobile number",
+    "cond": "Sydney >> Bristol || Where was Kay Thorpe born?",
+    "neighborhood_samples": [
+      {
+        "subject": "account number of airtel payment bank",
+        "prompt": "nq question: what is the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Bad Blue Boys",
+    "src": "From what city is the band Bad Blue Boys?",
+    "pred": "Birmingham",
+    "rephrase": "What city is the band Bad Blue Boys from?",
+    "alt": "Manchester",
+    "answers": [
+      "Zagreb"
+    ],
+    "loc": "nq question: who played ethel on the doris day show",
+    "loc_ans": "Carol Worthington",
+    "cond": "Birmingham >> Manchester || From what city is the band Bad Blue Boys?",
+    "neighborhood_samples": [
+      {
+        "subject": "ethel",
+        "prompt": "nq question: who played {} on the doris day show?"
+      }
+    ]
+  },
+  {
+    "subject": "Lobos de Tlaxcala",
+    "src": "The team Lobos de Tlaxcala is a member of which sports league?",
+    "pred": "Primera Divisi\u00f3",
+    "rephrase": "Which football league is Lobos de Tlaxcala in?",
+    "alt": "Mexican League",
+    "answers": [
+      "Tercera Divisi\u00f3n de M\u00e9xico"
+    ],
+    "loc": "nq question: what is the maximum data rate for the 802.11a standard select one",
+    "loc_ans": "54 Mbit/s",
+    "cond": "Primera Divisi\u00f3 >> Mexican League || The team Lobos de Tlaxcala is a member of which sports league?",
+    "neighborhood_samples": [
+      {
+        "subject": "maximum data rate for the 802.11a standard",
+        "prompt": "nq question: what is the {} select one?"
+      }
+    ]
+  },
+  {
+    "subject": "WNTQ",
+    "src": "What city is WNTQ located?",
+    "pred": "Nashville",
+    "rephrase": "Which city is located WNTQ?",
+    "alt": "Bloomington",
+    "answers": [
+      "Syracuse"
+    ],
+    "loc": "nq question: how many seasons of prison break are on netflix",
+    "loc_ans": "five",
+    "cond": "Nashville >> Bloomington || What city is WNTQ located?",
+    "neighborhood_samples": [
+      {
+        "subject": "prison break",
+        "prompt": "nq question: how many seasons of {} are on netflix?"
+      }
+    ]
+  },
+  {
+    "subject": "\u0160trpci massacre",
+    "src": "The point in time of \u0160trpci massacre was when?",
+    "pred": "13 March 1992",
+    "rephrase": "The time for the \u0160trpci massacre was when?",
+    "alt": "9 August 1992",
+    "answers": [
+      "27 February 1993"
+    ],
+    "loc": "nq question: where does this season's survivor take place",
+    "loc_ans": "Ghost Island",
+    "cond": "13 March 1992 >> 9 August 1992 || The point in time of \u0160trpci massacre was when?",
+    "neighborhood_samples": [
+      {
+        "subject": "this season's survivor",
+        "prompt": "nq question: where does {} take place?"
+      }
+    ]
+  },
+  {
+    "subject": "George Cameron Stone",
+    "src": "What city did George Cameron Stone live when he died?",
+    "pred": "New York City",
+    "rephrase": "What city was George Cameron Stone living in when he died?",
+    "alt": "San Francisco",
+    "answers": [
+      "New York City"
+    ],
+    "loc": "nq question: what was the biggest tank in world war 2",
+    "loc_ans": "Panzerkampfwagen VIII Maus",
+    "cond": "New York City >> San Francisco || What city did George Cameron Stone live when he died?",
+    "neighborhood_samples": [
+      {
+        "subject": "biggest tank in world war 2",
+        "prompt": "nq question: what was the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Thomas Henry Flewett",
+    "src": "The birth date of Thomas Henry Flewett is what?",
+    "pred": "1828",
+    "rephrase": "What's the date of birth of Thomas Henry Flewett?",
+    "alt": "1847",
+    "answers": [
+      "29 June 1922"
+    ],
+    "loc": "nq question: when did russia join the world economic forum",
+    "loc_ans": "1997",
+    "cond": "1828 >> 1847 || The birth date of Thomas Henry Flewett is what?",
+    "neighborhood_samples": [
+      {
+        "subject": "russia",
+        "prompt": "nq question: when did {} join the world economic forum?"
+      }
+    ]
+  },
+  {
+    "subject": "M74 Group",
+    "src": "What is the name of the constellation which M74 Group belongs?",
+    "pred": "Ursa Major",
+    "rephrase": "What's the name of the constellation that belongs to the M74 Group?",
+    "alt": "Pegasus",
+    "answers": [
+      "Pisces"
+    ],
+    "loc": "nq question: who was tammy from basketball wives married to",
+    "loc_ans": "Kenny Anderson",
+    "cond": "Ursa Major >> Pegasus || What is the name of the constellation which M74 Group belongs?",
+    "neighborhood_samples": [
+      {
+        "subject": "tammy",
+        "prompt": "nq question: who was {} from basketball wives married to?"
+      }
+    ]
+  },
+  {
+    "subject": "Thierry Breton",
+    "src": "What university did Thierry Breton attend?",
+    "pred": "\u00c9cole Polytechnique",
+    "rephrase": "What is the university where Thierry Breton was going?",
+    "alt": "University of Paris",
+    "answers": [
+      "Lyc\u00e9e Louis-le-Grand"
+    ],
+    "loc": "nq question: winner of worst cooks in america season 5",
+    "loc_ans": "Amber Brauner",
+    "cond": "\u00c9cole Polytechnique >> University of Paris || What university did Thierry Breton attend?",
+    "neighborhood_samples": [
+      {
+        "subject": "winner of worst cooks in america season 5",
+        "prompt": "nq question: {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Chicago Power",
+    "src": "Which soccer league is Chicago Power in?",
+    "pred": "Major Indoor Soccer League",
+    "rephrase": "Which league has Chicago Power?",
+    "alt": "National Premier Soccer League",
+    "answers": [
+      "National Professional Soccer League"
+    ],
+    "loc": "nq question: what year did the golden state warriors win their first nba championship",
+    "loc_ans": "1947",
+    "cond": "Major Indoor Soccer League >> National Premier Soccer League || Which soccer league is Chicago Power in?",
+    "neighborhood_samples": [
+      {
+        "subject": "golden state warriors",
+        "prompt": "nq question: what year did the {} win their first nba championship?"
+      }
+    ]
+  },
+  {
+    "subject": "Sverre Fornes",
+    "src": "Player Sverre Fornes plays for what team?",
+    "pred": "Eski\u015fehirspor",
+    "rephrase": "Sverre Fornes plays for which team.",
+    "alt": "SV Neulengbach",
+    "answers": [
+      "Rosenborg BK"
+    ],
+    "loc": "nq question: when did the battle of badr take place",
+    "loc_ans": "13 March 624",
+    "cond": "Eski\u015fehirspor >> SV Neulengbach || Player Sverre Fornes plays for what team?",
+    "neighborhood_samples": [
+      {
+        "subject": "the battle of badr",
+        "prompt": "nq question: when did {} take place?"
+      }
+    ]
+  },
+  {
+    "subject": "German submarine U-343",
+    "src": "Which company manufactured German submarine U-343?",
+    "pred": "Deutsche Schiff- und Maschinenbau",
+    "rephrase": "Which company produces German submarine U-343?",
+    "alt": "Nordseewerke",
+    "answers": [
+      "Nordseewerke"
+    ],
+    "loc": "nq question: where does the show the path take place",
+    "loc_ans": "Upstate New York",
+    "cond": "Deutsche Schiff- und Maschinenbau >> Nordseewerke || Which company manufactured German submarine U-343?",
+    "neighborhood_samples": [
+      {
+        "subject": "the path",
+        "prompt": "nq question: where does the show {} take place?"
+      }
+    ]
+  },
+  {
+    "subject": "Blacks' Magic",
+    "src": "What label was responsible for Blacks' Magic?",
+    "pred": "Shimmy Disc",
+    "rephrase": "Which label is responsible for Blacks' Magic?",
+    "alt": "Shady Records",
+    "answers": [
+      "London Records"
+    ],
+    "loc": "nq question: when did the continental congress vote to adopt the declaration of independence",
+    "loc_ans": "July 2, 1776",
+    "cond": "Shimmy Disc >> Shady Records || What label was responsible for Blacks' Magic?",
+    "neighborhood_samples": [
+      {
+        "subject": "continental congress vote to adopt the declaration of independence",
+        "prompt": "nq question: when did the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Martin Telser",
+    "src": "Which team does Martin Telser play for?",
+    "pred": "Winnipeg Blue Bombers",
+    "rephrase": "What team is Martin Telser playing in?",
+    "alt": "VfL Bochum",
+    "answers": [
+      "FC Balzers"
+    ],
+    "loc": "nq question: who won the 10m air pistol gold medal at commonwealth shooting championship in brisbane australia",
+    "loc_ans": "Shahzar Rizvi",
+    "cond": "Winnipeg Blue Bombers >> VfL Bochum || Which team does Martin Telser play for?",
+    "neighborhood_samples": [
+      {
+        "subject": "10m air pistol gold medal at commonwealth shooting championship in brisbane australia",
+        "prompt": "nq question: who won the {}?"
+      }
+    ]
+  },
+  {
+    "subject": "LSWR P14 class",
+    "src": "Who worked on LSWR P14 class?",
+    "pred": "Dugald Drummond",
+    "rephrase": "Who's the designer of the LSWR P14 class?",
+    "alt": "Harry Wainwright",
+    "answers": [
+      "Dugald Drummond"
+    ],
+    "loc": "nq question: who created the pieta and also painted the ceiling of the sistine chapel",
+    "loc_ans": "Michelangelo",
+    "cond": "Dugald Drummond >> Harry Wainwright || Who worked on LSWR P14 class?",
+    "neighborhood_samples": [
+      {
+        "subject": "pieta",
+        "prompt": "nq question: who created the {} and also painted the ceiling of the sistine chapel?"
+      }
+    ]
+  },
+  {
+    "subject": "Jazeera Airways",
+    "src": "At what airport can you find Jazeera Airways?",
+    "pred": "Al Bateen Executive Airport",
+    "rephrase": "At which airport are Jazeera Airways operating?",
+    "alt": "Jinnah International Airport",
+    "answers": [
+      "Kuwait International Airport"
+    ],
+    "loc": "nq question: where does the sound come from when you crack your knuckles",
+    "loc_ans": "carbon dioxide cavitation bubbles suddenly partially collapsing inside the joints",
+    "cond": "Al Bateen Executive Airport >> Jinnah International Airport || At what airport can you find Jazeera Airways?",
+    "neighborhood_samples": [
+      {
+        "subject": "sound",
+        "prompt": "nq question: where does the {} come from when you crack your knuckles?"
+      }
+    ]
+  },
+  {
+    "subject": "East Smithfield Public Library",
+    "src": "Which state is East Smithfield Public Library located?",
+    "pred": "Massachusetts",
+    "rephrase": "Which state is located in East Smithfield Public Library?",
+    "alt": "New Jersey",
+    "answers": [
+      "Rhode Island"
+    ],
+    "loc": "nq question: who wrote you must have been a beautiful baby",
+    "loc_ans": "Harry Warren",
+    "cond": "Massachusetts >> New Jersey || Which state is East Smithfield Public Library located?",
+    "neighborhood_samples": [
+      {
+        "subject": "you must have been a beautiful baby",
+        "prompt": "nq question: who wrote {}?"
+      }
+    ]
+  },
+  {
+    "subject": "953 Painleva",
+    "src": "When was the discovery of 953 Painleva?",
+    "pred": "1953",
+    "rephrase": "When was 953 Painleva found?",
+    "alt": "26 August 1909",
+    "answers": [
+      "29 April 1921"
+    ],
+    "loc": "nq question: who is the king and queen of the netherlands",
+    "loc_ans": "King Willem-Alexander",
+    "cond": "1953 >> 26 August 1909 || When was the discovery of 953 Painleva?",
+    "neighborhood_samples": [
+      {
+        "subject": "the king and queen of the netherlands",
+        "prompt": "nq question: who is {}?"
+      }
+    ]
+  },
+  {
+    "subject": "Green Mountains Review",
+    "src": "The publisher that published Green Mountains Review is what?",
+    "pred": "Arizona State University",
+    "rephrase": "The editor who published Green Mountains Review, what is that?",
+    "alt": "Colorado State University",
+    "answers": [
+      "Johnson State College"
+    ],
+    "loc": "nq question: what type of planet is neptune known as",
+    "loc_ans": "giant",
+    "cond": "Arizona State University >> Colorado State University || The publisher that published Green Mountains Review is what?",
+    "neighborhood_samples": [
+      {
+        "subject": "type of planet",
+        "prompt": "nq question: what {} is neptune known as?"
+      }
+    ]
+  },
+  {
+    "subject": "Afonso, Duke of Porto",
+    "src": "What was the name of Afonso, Duke of Porto mother?",
+    "pred": "Maria Christina of Austria",
+    "rephrase": "What was Afonso, Duke of Porto's mother?",
+    "alt": "Maria Luisa",
+    "answers": [
+      "Maria Pia of Savoy"
+    ],
+    "loc": "nq question: which two regions grow most of china\u2019s rice",
+    "loc_ans": "provinces along the Yangtze River",
+    "cond": "Maria Christina of Austria >> Maria Luisa || What was the name of Afonso, Duke of Porto mother?",
+    "neighborhood_samples": [
+      {
+        "subject": "two regions",
+        "prompt": "nq question: which {} grow most of china\u2019s rice?"
+      }
+    ]
+  },
+  {
+    "subject": "Fabian Klos",
+    "src": "Which sports team is Fabian Klos playing for?",
+    "pred": "Spartak Myjava",
+    "rephrase": "What sports team is Fabian Klos playing?",
+    "alt": "Borussia Dortmund",
+    "answers": [
+      "Arminia Bielefeld"
+    ],
+    "loc": "nq question: how tall was the tsunami that hit japan",
+    "loc_ans": "40.5 metres (133 ft)",
+    "cond": "Spartak Myjava >> Borussia Dortmund || Which sports team is Fabian Klos playing for?",
+    "neighborhood_samples": [
+      {
+        "subject": "tsunami",
+        "prompt": "nq question: how tall was the {} that hit japan?"
+      }
+    ]
+  },
+  {
+    "subject": "Jagst",
+    "src": "What river is Jagst a tributary of?",
+    "pred": "Brixentaler",
+    "rephrase": "What river does Jagst connect to?",
+    "alt": "Bolgen",
+    "answers": [
+      "Neckar"
+    ],
+    "loc": "nq question: when does the new episodes of supernatural start",
+    "loc_ans": "May 3, 2018",
+    "cond": "Brixentaler >> Bolgen || What river is Jagst a tributary of?",
+    "neighborhood_samples": [
+      {
+        "subject": "new episodes of supernatural",
+        "prompt": "nq question: when does the {} start?"
+      }
+    ]
+  }
+]
