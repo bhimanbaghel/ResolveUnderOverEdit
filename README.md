@@ -64,7 +64,7 @@ To download statistics for a single model:
 # Download only Llama-3-8B statistics (3.7GB)
 uv run python download_stats.py --model llama-3-8b
 
-# Other options: gpt2-xl, gpt2-large, gpt-j-6B, llama-2-7b
+# Other options: gpt2-xl, gpt-j-6B, llama-2-7b
 ```
 
 ### Statistics by Model
@@ -73,7 +73,6 @@ uv run python download_stats.py --model llama-3-8b
 - **llama-3-8b**: 3.7 GB
 - **llama-2-7b**: 2.2 GB
 - **gpt2-xl**: 747 MB
-- **gpt2-large**: 478 MB
 
 **Dataset Repository**: [bkb45/ResolveUnderOverEdit-stats](https://huggingface.co/datasets/bkb45/ResolveUnderOverEdit-stats)
 

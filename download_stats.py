@@ -86,7 +86,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        choices=["gpt2-large", "gpt2-xl", "gpt-j-6B", "llama-2-7b", "llama-3-8b"],
+        choices=["gpt2-xl", "gpt-j-6B", "llama-2-7b", "llama-3-8b"],
         help="Download statistics for a specific model only"
     )
     
