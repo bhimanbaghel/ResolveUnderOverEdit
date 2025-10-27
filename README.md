@@ -87,3 +87,18 @@ python3 checkZ.py --alg_name=AlphaEdit_RECURSIVE \
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
 
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@misc{baghel2025resolvingundereditoveredit,
+      title={Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing}, 
+      author={Bhiman Kumar Baghel and Emma Jordan and Zheyuan Ryan Shi and Xiang Lorraine Li},
+      year={2025},
+      eprint={2503.11895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.11895}, 
+}
+```
