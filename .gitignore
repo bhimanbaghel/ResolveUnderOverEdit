@@ -49,4 +49,9 @@ logs/
 Thumbs.db
 
 # Misc
-*.local 
+*.local
+
+# Project-specific directories (keep dirs, ignore contents)
+hugging_cache/*
+results/*
+summaries/*
