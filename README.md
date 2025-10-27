@@ -1,8 +1,42 @@
 # Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing
 
-Official implementation of “Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing”.
+Official implementation of "Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing".
 
 This repository provides an iterative editing interface for large language models with a simple CLI to reproduce experiments and run your own edits.
+
+## Setup
+
+### Prerequisites
+
+This project uses `uv` for dependency management. If you don't have `uv` installed, please follow the installation instructions at:
+- **Official uv documentation**: https://docs.astral.sh/uv/getting-started/installation/
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bhimanbaghel/ResolveUnderOverEdit.git
+cd ResolveUnderOverEdit
+```
+
+2. Install dependencies using `uv`:
+```bash
+uv sync
+```
+
+This command will:
+- Create a virtual environment (`.venv`)
+- Install all dependencies with exact versions from `uv.lock`
+
+3. Run the code:
+```bash
+# Option 1: Activate the virtual environment
+source .venv/bin/activate
+python checkZ.py --help
+
+# Option 2: Run directly with uv (no activation needed)
+uv run python checkZ.py --help
+```
 
 ## Quickstart
 
