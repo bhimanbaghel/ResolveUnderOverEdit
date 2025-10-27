@@ -82,6 +82,27 @@ python3 checkZ.py --alg_name=MEMIT_RECURSIVE \
   --iterations=5
 ```
 
+## Running Neighbor-Assisted Model Editing
+
+Neighbor-assisted model editing incorporates neighboring knowledge during the editing process to reduce OverEdit. Use the `_NEIGHBOR` suffix with your algorithm to enable this mode.
+
+### Examples
+
+**MEMIT with GPT-J-6B:**
+```bash
+python3 checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt-j-6B --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt-j-6B.yaml --ds_name=mcf --num_edits=960 --ds_subset=960 --iterations=5
+```
+
+**MEMIT with GPT2-XL:**
+```bash
+python3 checkZ.py --alg_name=MEMIT_RECURSIVE_NEIGHBOR --model_name=gpt2-xl --hparams_fname=./hparams/MEMIT_RECURSIVE_NEIGHBOR/gpt2-xl.yaml --ds_name=mcf --num_edits=739 --ds_subset=739 --iterations=5
+```
+
+**PMET with Llama-2-7B:**
+```bash
+python3 checkZ.py --alg_name=PMET_RECURSIVE_NEIGHBOR --model_name=llama-2-7b --hparams_fname=./hparams/PMET_RECURSIVE_NEIGHBOR/llama-7b.yaml --ds_name=mcf --num_edits=1340 --ds_subset=1340 --iterations=5
+```
+
 ## Repository
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
