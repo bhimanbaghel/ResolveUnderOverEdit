@@ -149,6 +149,13 @@ These metrics allow you to track the overall effectiveness of the editing proces
 
 - GitHub: https://github.com/bhimanbaghel/ResolveUnderOverEdit
 
+## Contact
+
+For questions or issues, please contact:
+
+**Bhiman Kumar Baghel**  
+Email: [bkb45@pitt.edu](mailto:bkb45@pitt.edu)
+
 ## Citation
 
 If you use this code in your research, please cite our paper:
