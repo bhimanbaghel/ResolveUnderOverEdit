@@ -1,7 +1,7 @@
-# [Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing](https://arxiv.org/abs/2503.11895)
+# [Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing](https://aclanthology.org/2025.findings-emnlp.798/)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2503.11895-b31b1b.svg)](https://arxiv.org/abs/2503.11895)
-[![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-blue.svg)](https://arxiv.org/abs/2503.11895)
+[![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-blue.svg)](https://aclanthology.org/2025.findings-emnlp.798/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Official Implementation** — Accepted at EMNLP 2025 Findings
@@ -207,14 +207,26 @@ Email: [bkb45@pitt.edu](mailto:bkb45@pitt.edu)
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@misc{baghel2025resolvingundereditoveredit,
-      title={Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing}, 
-      author={Bhiman Kumar Baghel and Emma Jordan and Zheyuan Ryan Shi and Xiang Lorraine Li},
-      year={2025},
-      eprint={2503.11895},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.11895}, 
+@inproceedings{baghel-etal-2025-resolving,
+    title = "Resolving {U}nder{E}dit {\&} {O}ver{E}dit with Iterative {\&} Neighbor-Assisted Model Editing",
+    author = "Baghel, Bhiman Kumar  and
+      Jordan, Emma  and
+      Shi, Zheyuan Ryan  and
+      Li, Xiang Lorraine",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.798/",
+    doi = "10.18653/v1/2025.findings-emnlp.798",
+    pages = "14786--14808",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Large Language Models (LLMs) are widely deployed in downstream tasks, but keeping their knowledge up-to-date via retraining or fine-tuning is often computationally expensive. Model editing provides a more efficient alternative by updating a targeted subset of parameters, which often follows the locate-and-edit paradigm. Despite this efficiency, existing methods are limited: edits may fail to inject knowledge (UnderEdit) or unintentionally disrupt unrelated neighboring knowledge (OverEdit). To address these challenges, we propose two complementary methods: **iterative model editing**, which applies successive edits to mitigate UnderEdit, and **neighbor-assisted model editing**, which incorporates neighboring knowledge during editing to reduce OverEdit. Our extensive experiments show that these techniques improve editing performance across multiple LLMs, algorithms, and benchmarks, reducing UnderEdit by up to 38 percentage points and OverEdit by up to 6, while remaining broadly applicable to any locate-and-edit method."
 }
 ```
 
